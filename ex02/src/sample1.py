@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # x軸:時刻
-x = np.array(0, 100, 0.5)
+x = np.arange(0, 100, 0.5)
 
 # y軸:sin波
 Hz = 5.
